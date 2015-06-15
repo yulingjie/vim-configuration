@@ -1,0 +1,151 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   '-g',
+1 verbose cli   'install',
+1 verbose cli   'instant-markdown-d' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose cache add [ 'instant-markdown-d', null ]
+5 verbose cache add name=undefined spec="instant-markdown-d" args=["instant-markdown-d",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'instant-markdown-d',
+6 verbose parsed url   path: 'instant-markdown-d',
+6 verbose parsed url   href: 'instant-markdown-d' }
+7 silly lockFile 41a51f08-instant-markdown-d instant-markdown-d
+8 verbose lock instant-markdown-d /home/ylj/.npm/41a51f08-instant-markdown-d.lock
+9 silly lockFile 41a51f08-instant-markdown-d instant-markdown-d
+10 silly lockFile 41a51f08-instant-markdown-d instant-markdown-d
+11 verbose addNamed [ 'instant-markdown-d', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 40ec8289-instant-markdown-d instant-markdown-d@
+14 verbose lock instant-markdown-d@ /home/ylj/.npm/40ec8289-instant-markdown-d.lock
+15 silly addNameRange { name: 'instant-markdown-d', range: '*', hasData: false }
+16 verbose request where is /instant-markdown-d
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 4843bc23dd515bd5
+19 verbose url raw /instant-markdown-d
+20 verbose url resolving [ 'https://registry.npmjs.org/', './instant-markdown-d' ]
+21 verbose url resolved https://registry.npmjs.org/instant-markdown-d
+22 verbose request where is https://registry.npmjs.org/instant-markdown-d
+23 info trying registry request attempt 1 at 23:31:12
+24 http GET https://registry.npmjs.org/instant-markdown-d
+25 http 200 https://registry.npmjs.org/instant-markdown-d
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"C4QZUQ942RZGO0E0TQIM6SHPQ"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '9294',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Sun, 14 Jun 2015 15:31:14 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-hkg6821-HKG',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '1',
+26 silly registry.get     'x-timer': 'S1434295873.594253,VS0,VE617',
+26 silly registry.get     vary: 'Accept' } ]
+27 silly addNameRange number 2 { name: 'instant-markdown-d', range: '*', hasData: true }
+28 silly addNameRange versions [ 'instant-markdown-d',
+28 silly addNameRange   [ '0.0.1',
+28 silly addNameRange     '0.0.2',
+28 silly addNameRange     '0.0.3',
+28 silly addNameRange     '0.0.4',
+28 silly addNameRange     '0.0.5',
+28 silly addNameRange     '0.0.6',
+28 silly addNameRange     '0.0.7',
+28 silly addNameRange     '0.0.8',
+28 silly addNameRange     '0.1.0' ] ]
+29 verbose addNamed [ 'instant-markdown-d', '0.1.0' ]
+30 verbose addNamed [ '0.1.0', '0.1.0' ]
+31 silly lockFile b4a6a725-instant-markdown-d-0-1-0 instant-markdown-d@0.1.0
+32 verbose lock instant-markdown-d@0.1.0 /home/ylj/.npm/b4a6a725-instant-markdown-d-0-1-0.lock
+33 silly lockFile 8ead6b17-n-d-instant-markdown-d-0-1-0-tgz https://registry.npmjs.org/instant-markdown-d/-/instant-markdown-d-0.1.0.tgz
+34 verbose lock https://registry.npmjs.org/instant-markdown-d/-/instant-markdown-d-0.1.0.tgz /home/ylj/.npm/8ead6b17-n-d-instant-markdown-d-0-1-0-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/instant-markdown-d/-/instant-markdown-d-0.1.0.tgz',
+35 verbose addRemoteTarball   'da1ffd10443b6b72c14d896b53d2925507a570c6' ]
+36 info retry fetch attempt 1 at 23:31:14
+37 verbose fetch to= /tmp/npm-15187-49xx5B7Z/registry.npmjs.org/instant-markdown-d/-/instant-markdown-d-0.1.0.tgz
+38 http GET https://registry.npmjs.org/instant-markdown-d/-/instant-markdown-d-0.1.0.tgz
+39 http 200 https://registry.npmjs.org/instant-markdown-d/-/instant-markdown-d-0.1.0.tgz
+40 silly lockFile 8ead6b17-n-d-instant-markdown-d-0-1-0-tgz https://registry.npmjs.org/instant-markdown-d/-/instant-markdown-d-0.1.0.tgz
+41 silly lockFile 8ead6b17-n-d-instant-markdown-d-0-1-0-tgz https://registry.npmjs.org/instant-markdown-d/-/instant-markdown-d-0.1.0.tgz
+42 silly lockFile b4a6a725-instant-markdown-d-0-1-0 instant-markdown-d@0.1.0
+43 silly lockFile b4a6a725-instant-markdown-d-0-1-0 instant-markdown-d@0.1.0
+44 silly lockFile 40ec8289-instant-markdown-d instant-markdown-d@
+45 silly lockFile 40ec8289-instant-markdown-d instant-markdown-d@
+46 silly resolved [ { author: { name: 'Suan-Aik Yeo', email: 'yeosuanaik@gmail.com' },
+46 silly resolved     name: 'instant-markdown-d',
+46 silly resolved     description: 'Instantly-updating Markdown Server',
+46 silly resolved     version: '0.1.0',
+46 silly resolved     engine: 'node',
+46 silly resolved     main: 'instant-markdown-d',
+46 silly resolved     preferGlobal: 'true',
+46 silly resolved     bin: { 'instant-markdown-d': './instant-markdown-d' },
+46 silly resolved     dependencies:
+46 silly resolved      { 'highlight.js': '^8.4.0',
+46 silly resolved        'markdown-it': '^3.0.3',
+46 silly resolved        send: '~0.1.0',
+46 silly resolved        'socket.io': '' },
+46 silly resolved     gitHead: '1511b8591e0a0e3aadd92db7bd6634b1ada8286d',
+46 silly resolved     _id: 'instant-markdown-d@0.1.0',
+46 silly resolved     scripts: {},
+46 silly resolved     _shasum: 'da1ffd10443b6b72c14d896b53d2925507a570c6',
+46 silly resolved     _from: 'instant-markdown-d@',
+46 silly resolved     _npmVersion: '2.1.3',
+46 silly resolved     _nodeVersion: '0.10.32',
+46 silly resolved     _npmUser: { name: 'suan', email: 'yeosuanaik@gmail.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: 'da1ffd10443b6b72c14d896b53d2925507a570c6',
+46 silly resolved        tarball: 'http://registry.npmjs.org/instant-markdown-d/-/instant-markdown-d-0.1.0.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/instant-markdown-d/-/instant-markdown-d-0.1.0.tgz' } ]
+47 info install instant-markdown-d@0.1.0 into /usr/lib
+48 info installOne instant-markdown-d@0.1.0
+49 verbose lib/node_modules/instant-markdown-d unbuild
+50 verbose tar unpack /home/ylj/.npm/instant-markdown-d/0.1.0/package.tgz
+51 silly lockFile 869bbdc6--node-modules-instant-markdown-d tar:///usr/lib/node_modules/instant-markdown-d
+52 verbose lock tar:///usr/lib/node_modules/instant-markdown-d /home/ylj/.npm/869bbdc6--node-modules-instant-markdown-d.lock
+53 silly lockFile 0b296b23-ant-markdown-d-0-1-0-package-tgz tar:///home/ylj/.npm/instant-markdown-d/0.1.0/package.tgz
+54 verbose lock tar:///home/ylj/.npm/instant-markdown-d/0.1.0/package.tgz /home/ylj/.npm/0b296b23-ant-markdown-d-0-1-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/lib/node_modules/instant-markdown-d'
+56 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/instant-markdown-d']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/lib/node_modules/instant-markdown-d',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/lib/node_modules/instant-markdown-d',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/lib64/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/lib64/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Linux 3.18.12-gentoo
+59 error command "/usr/bin/node" "/usr/bin/npm" "-g" "install" "instant-markdown-d"
+60 error cwd /home/ylj/.vim/bundle
+61 error node -v v0.10.30
+62 error npm -v 1.4.21
+63 error path /usr/lib/node_modules/instant-markdown-d
+64 error fstream_path /usr/lib/node_modules/instant-markdown-d
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/lib/node_modules/instant-markdown-d'
+70 error fstream_stack /usr/lib64/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/lib64/node_modules/npm/node_modules/mkdirp/index.js:37:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
